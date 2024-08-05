@@ -21,12 +21,16 @@ def get_files(data_directory, date_today):
     """Get a list of files in the data_directory that contain the date_today in their name."""
     return [file for file in Path(data_directory).iterdir() if date_today in file.name]
 
-def save_to_csv(data, output_file):
+def save_to_csv(df, output_file):
     """Save the data to a CSV file."""
-    df = pd.DataFrame(data)
     print(df.head())
     df.to_csv(output_file, index=False)
     print("CSV file saved successfully.")
+
+def df_transform(data, date_today):
+    """Order and transform time column"""
+    df = pd.DataFrame(data).sort_values(["points", "time"], ascending=[False, True]) #TODO: Ordenar despues de corregir dates
+    return df
 
 def parse_html_file(file_path):
     """Parse the HTML file and extract news items."""
@@ -86,7 +90,8 @@ def main():
 
     # Save the DataFrame to a CSV file
     output_file = data_directory / f'hacker_news_news_{date_today}.csv'
-    save_to_csv(all_data, output_file)
+    final_df = df_transform(all_data, date_today)
+    save_to_csv(final_df, output_file)
 
 if __name__ == "__main__":
     main()

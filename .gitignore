@@ -138,6 +138,7 @@ coverage/
 *.sonar
 .sonar/
 .report
+*.html
 
 # Logs y perfiles de rendimiento
 ################################
