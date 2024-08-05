@@ -1,0 +1,167 @@
+# Sistema operativo
+###################
+# Archivos de sistema de MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de sistema de Windows
+Thumbs.db
+Desktop.ini
+
+# Archivos de sistema de Linux
+*~
+
+# Archivos de control de versiones
+###############################
+*.log
+*.lock
+*.tmp
+*.cache
+*.swp
+*.swo
+*.bak
+
+# Archivos de entorno y configuraciones específicas
+##################################################
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos de dependencia de Node.js
+###################################
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de Python
+###################
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de dependencia de Java
+################################
+*.class
+*.jar
+*.war
+*.ear
+target/
+
+# Archivos de dependencia de Ruby
+################################
+*.gem
+*.rbc
+.bundle/
+vendor/bundle
+log/
+tmp/
+*.rvmrc
+
+# Archivos de dependencia de Go
+##############################
+vendor/
+
+# Archivos de compilación de C/C++
+###############################
+*.o
+*.a
+*.so
+*.exe
+
+# Archivos de compilación de JavaScript y TypeScript
+##################################################
+dist/
+build/
+
+# Archivos de compilación de Flutter/Dart
+#######################################
+.dart_tool/
+.packages
+.pub/
+
+# Archivos de configuración de IDEs y editores
+#############################################
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de configuración de contenedores Docker
+#################################################
+Dockerfile
+docker-compose.yml
+
+# Archivos de máquina virtual y contenedores
+###########################################
+.vagrant/
+*.vbox
+*.vbox-prev
+*.vdi
+*.iso
+*.qcow2
+*.qcow
+
+# Archivos de configuración de servicios CI/CD
+############################################
+# GitLab CI
+.gitlab-ci.yml
+
+# Travis CI
+.travis.yml
+
+# CircleCI
+.circleci/
+
+# Otros
+######
+coverage/
+*.codecov
+*.coverage
+*.lcov
+.nyc_output/
+*.sonar
+.sonar/
+.report
+
+# Logs y perfiles de rendimiento
+################################
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+*.out
+
+# Otros archivos específicos de aplicaciones y configuraciones locales
+#####################################################################
+.sass-cache/
+connect.lock
+*.coffee
+*.scssc
+.sass-cache/
+
+# Directorios y archivos de prueba
+##################################
+tests/
+__tests__/
+__snapshots__/
+__mocks__/
+coverage/
+test-results/
+reports/
