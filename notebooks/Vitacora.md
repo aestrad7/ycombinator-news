@@ -3,16 +3,20 @@
 - Creamos un script para extraer de los html la informacion de titulo de noticias y ponerlas en una tabla
 - Automatizamos el flujo de ejecucion
 
-### Ideas (0-5)
-| Facilidad | Deseabilidad | Descripcion|
+| Facilidad | Deseabilidad | Descripción|
 |------------|--------------|------------|
-| 4       | 5         | Agregar a hacker_new_table_extractor una forma de calcular cual fue la fecha/hora de publicacion de la noticia |
-| 3       | 4         | Ordenar la tabla por tiempo desc y rate asc |
-| 3       | 4         | Integrar con twitter esta mondah |
-| 2      | 4         | Ejecutar algun modelo local de llms para interpretar cual es mas interesante y geredactar un twit |
-| 2       | 4         | Hacer un proceso similar con noticias de la industria de la musica |
-| 1       | 3         | Hacer un proceso similar con noticias de machine learning e ia, medium y etc... |
+| 5       | 4         | Agregar función para calcular fecha/hora en table_extractor |
+| 4       | 3         | Ordenar tabla por tiempo descendente y rate ascendente |
+| 4       | 3         | Integrar con Twitter |
+| 4      | 2         | Ejecutar modelo local de llms para priorizar y redactar tweet |
+| 4       | 2         | Procesar noticias de la industria de la música de manera similar |
+| 3       | 3         | Revisar #TODO en el código |
+| 3       | 3         | Validar tablas de los últimos días |
+| 3       | 1         | Procesar noticias de [otros medios](https://chatgpt.com/share/eeb0bb2a-bb70-49a6-ad01-ce6b67ff9eb7) como Medium |
+
 ---
+
+### Otras notas
 Algunos sitios similares a Hacker News con alta relevancia en temas de tecnología, startups y programación son:
 
 1. **Reddit** (especialmente subreddits como r/technology, r/programming, y r/startups): Una plataforma de noticias sociales y discusión sobre una amplia variedad de temas.
