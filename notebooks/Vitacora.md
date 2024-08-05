@@ -3,6 +3,11 @@
 - Creamos un script para extraer de los html la informacion de titulo de noticias y ponerlas en una tabla
 - Automatizamos el flujo de ejecucion
 
+### Dia 2
+- Creamos las funciones de calcuilo de time
+    + Falta verificarlas que fucnionen bien en time y hour
+
+### Ideas
 | Facilidad | Deseabilidad | Descripción|
 |------------|--------------|------------|
 | 5       | 4         | Agregar función para calcular fecha/hora en table_extractor |
