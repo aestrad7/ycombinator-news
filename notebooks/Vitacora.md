@@ -5,7 +5,7 @@
 
 ### Dia 2
 - Creamos las funciones de calcuilo de time
-    + Falta verificarlas que fucnionen bien en time y hour
+- Ya ordenamos la tabla de salida
 
 ### Ideas
 | Facilidad | Deseabilidad | Descripción                                                                 |
