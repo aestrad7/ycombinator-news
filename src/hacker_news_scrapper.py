@@ -1,12 +1,15 @@
 """
 This script is used to scrape and save HTML content from multiple pages of the Hacker News website.
+
 Functions:
 - fetch_page(url): Fetches the HTML content of a given URL using the requests library.
 - save_html(content, directory, filename): Saves the HTML content to a file in the specified directory.
+
 Usage:
 1. Set the base_url variable to the desired URL of the Hacker News website.
 2. Modify the urls list to include the specific pages you want to scrape.
 3. Run the script to fetch and save the HTML content of each page.
+
 Note: The saved HTML files will be stored in a 'data' directory relative to the script file.
 """
 
@@ -22,7 +25,7 @@ def fetch_page(url):
         response.raise_for_status()
         return response.text
     except requests.exceptions.RequestException as e:
-        print(f"Error al acceder a la página {url}: {e}")
+        print(f"Error accessing page {url}: {e}")
         return None
 
 def save_html(content, directory, filename):
@@ -31,9 +34,9 @@ def save_html(content, directory, filename):
         directory.mkdir(parents=True, exist_ok=True)
         file_path = directory / filename
         file_path.write_text(content, encoding='utf-8')
-        print(f"Estructura HTML descargada y guardada en '{file_path}'.")
+        print(f"HTML content downloaded and saved to '{file_path}'.")
     except Exception as e:
-        print(f"Error al guardar el archivo {filename}: {e}")
+        print(f"Error saving file {filename}: {e}")
 
 def main():
     base_url = 'https://news.ycombinator.com/news'
@@ -44,7 +47,7 @@ def main():
     timestamp = now.strftime("%Y%m%d_%H%M%S")
     data_dir = Path(__file__).resolve().parent.parent / 'data'
     
-    # Guardar date_today en un archivo temporal
+    # Save date_today to a temporary file
     temp_file = Path(__file__).resolve().parent / 'date_today.txt'
     with temp_file.open('w') as f:
         f.write(date_today)
