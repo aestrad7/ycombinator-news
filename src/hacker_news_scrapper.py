@@ -41,7 +41,7 @@ def save_html(content, directory, filename):
 
 def main():
     base_url = 'https://news.ycombinator.com/news'
-    urls = [base_url, f"{base_url}?p=2", f"{base_url}?p=3"]
+    urls = [base_url, f"{base_url}?p=2", f"{base_url}?p=3"] #TODO: modificar pa otras fuentes y verificar usabilidad
     
     now = datetime.now()
     date_today = now.strftime("%Y%m%d")
