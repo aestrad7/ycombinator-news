@@ -21,22 +21,36 @@ def get_files(data_directory, date_today):
     """Get a list of files in the data_directory that contain the date_today in their name."""
     return [file for file in Path(data_directory).iterdir() if date_today in file.name]
 
+def time_to_hour(row, date_today):
+    if row["long"] == "minutes":
+        return pd.Timestamp(date_today) - pd.Timedelta(minutes=int(row["num"]))
+    elif row["long"] == "hours":
+        return pd.Timestamp(date_today) - pd.Timedelta(hours=int(row["num"]))
+    elif row["long"] == "days" or row["long"] == "day":
+        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]))
+    elif row["long"] == "months":
+        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]*30))
+    elif row["long"] == "years":
+        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]*365))
+    else:
+        return pd.Timestamp(date_today)
+    
+def df_transform(data, date_today): #:TODO validar que esto si funciona bien 
+    """Order and transform time column"""
+    df = pd.DataFrame(data)
+    df[["num", "long", "ot"]] = df["time"].str.split(" ", expand=True)
+    df["time_hour"] = df.apply(lambda row: time_to_hour(row, date_today), axis=1)
+    df = df.drop(columns=["time", "num", "long", "ot"], errors="ignore")
+    df = df.rename(columns={"time_hour": "time"})
+    df = df.astype({"points": int})
+    df = df.sort_values(["points", "time"], ascending=[False, True])
+    return df
+
 def save_to_csv(df, output_file):
     """Save the data to a CSV file."""
     print(df.head())
     df.to_csv(output_file, index=False)
     print("CSV file saved successfully.")
-
-def df_transform(data, date_today): #:TODO validar que esto si funciona bien 
-    """Order and transform time column"""
-    df = pd.DataFrame(data)
-    df['time'] = df['time'].apply(lambda x: x if len(x.split()) == 2 else '0 minutes')
-    df[["num", "long"]] = df["time"].str.split(" ", expand=True)
-    df["time"] = df.apply(lambda row: time_to_hour(row, date_today), axis=1)
-    df = df.drop(columns=["num", "long"])
-    df = df.astype({"points": int})
-    df = df.sort_values(["points", "time"], ascending=[False, True])
-    return df
 
 def parse_html_file(file_path):
     """Parse the HTML file and extract news items."""
@@ -70,20 +84,6 @@ def parse_html_file(file_path):
         print(f"Error processing file {file_path}: {e}")
     return data
 
-def time_to_hour(row, date_today):
-    if row["long"] == "minutes":
-        return pd.Timestamp(date_today) - pd.Timedelta(minutes=int(row["num"]))
-    elif row["long"] == "hours":
-        return pd.Timestamp(date_today) - pd.Timedelta(hours=int(row["num"]))
-    elif row["long"] == "days" or row["long"] == "day":
-        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]))
-    elif row["long"] == "months":
-        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]*30))
-    elif row["long"] == "years":
-        return pd.Timestamp(date_today) - pd.Timedelta(days=int(row["num"]*365))
-    else:
-        return pd.Timestamp(date_today)
-    
 def main():
     # Directory for data files
     project_directory = Path(__file__).resolve().parent.parent

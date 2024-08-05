@@ -8,16 +8,14 @@
     + Falta verificarlas que fucnionen bien en time y hour
 
 ### Ideas
-| Facilidad | Deseabilidad | Descripción|
-|------------|--------------|------------|
-| 5       | 4         | Agregar función para calcular fecha/hora en table_extractor |
-| 4       | 3         | Ordenar tabla por tiempo descendente y rate ascendente |
-| 4       | 3         | Integrar con Twitter |
-| 4      | 2         | Ejecutar modelo local de llms para priorizar y redactar tweet |
-| 4       | 2         | Procesar noticias de la industria de la música de manera similar |
-| 3       | 3         | Revisar #TODO en el código |
-| 3       | 3         | Validar tablas de los últimos días |
-| 3       | 1         | Procesar noticias de [otros medios](https://chatgpt.com/share/eeb0bb2a-bb70-49a6-ad01-ce6b67ff9eb7) como Medium |
+| Facilidad | Deseabilidad | Descripción                                                                 |
+|-----------|--------------|-----------------------------------------------------------------------------|
+| 4         | 4            | Ejecutar modelo local de llms para priorizar y redactar tweet               |
+| 4         | 3            | Integrar con Twitter                                                        |
+| 3         | 4            | Procesar noticias de la industria de la música de manera similar            |
+| 3         | 3            | Revisar #TODO en el código                                                  |
+| 3         | 3            | Validar tablas de los últimos días                                          |
+| 1         | 3            | Procesar noticias de [otros medios](https://chatgpt.com/share/eeb0bb2a-bb70-49a6-ad01-ce6b67ff9eb7) como Medium |
 
 ---
 

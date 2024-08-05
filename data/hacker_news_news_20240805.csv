@@ -1,91 +1,91 @@
-title,time,link,points
-"""We ran out of columns""",2024-08-05,https://jimmyhmiller.github.io/ugliest-beautiful-codebase,1516
-Open Source Farming Robot,2024-08-05,https://farm.bot/,663
-How to build quickly,2024-08-05,https://learnhowtolearn.org/how-to-build-extremely-quickly/,617
-Starting Hospice,2024-08-05,https://jakeseliger.com/2024/08/04/starting-hospice-the-end/,535
-Porting my JavaScript game engine to C for no reason,2024-08-05,https://phoboslab.org/log/2024/08/high_impact,483
-Stop Killing Games,2024-08-05,https://eci.ec.europa.eu/045/public/,427
-"How I Use ""AI""",2024-08-05,https://nicholas.carlini.com/writing/2024/how-i-use-ai.html,379
-Jailbroke my Kindle to use it as an e-ink monitor,2024-08-05,https://gist.github.com/adtac/eb639d3c707b55a28f0ee9a420aa7e0c,377
-Show HN: Free e-book about WebGPU Programming,2024-08-05,https://shi-yan.github.io/webgpuunleashed/,367
-Reverse engineering the 59-pound printer onboard the Space Shuttle,2024-08-05,http://www.righto.com/2024/08/space-shuttle-interim-teleprinter.html,325
-WhenFS: Calender Is Now a File System,2024-08-05,https://github.com/lvkv/whenfs,318
-How Postgres stores data on disk – this one's a page turner,2024-08-05,https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/,287
-Building Lego Machines to Destroy Tall Lego Towers,2024-08-05,https://kottke.org/24/07/building-lego-machines-to-destroy-tall-lego-towers,221
-Self-Compressing Neural Networks,2024-08-05,https://arxiv.org/abs/2301.13142,217
-"Age is a simple, modern and secure file encryption tool, format, and Go library",2024-08-05,https://github.com/FiloSottile/age,211
-Making your own hot sauce,2024-08-05,https://successfulsoftware.net/2024/08/04/making-your-own-hot-sauce/,208
-Airlines are running out of 4-digit flight numbers,2024-08-05,https://viewfromthewing.com/airlines-are-running-out-of-flight-numbers-and-they-dont-know-what-to-do-about-it/,207
-"Written by a 16 year old, a book on how computers work",2024-08-05,https://github.com/hackclub/RAM-a-thon,194
-Tomato nostalgia as I relive my Croatian island childhood,2024-08-05,https://www.croatiaweek.com/tomatoes-croatian-island-taste/,173
-Belenios: Verifiable online voting system,2024-08-05,https://www.belenios.org/,169
-Organic maps: Experimental feed based public transport mapping,2024-08-05,https://github.com/organicmaps/organicmaps/blob/master/docs/EXPERIMENTAL_PUBLIC_TRANSPORT_SUPPORT.md,168
-Cortex A73's Not-So-Infinite Reordering Capacity,2024-08-05,https://chipsandcheese.com/2024/08/04/cortex-a73s-not-so-infinite-reordering-capacity/,166
-The Untold Story of How US Spies Sabotaged Soviet Technology,2024-08-05,https://www.politico.com/news/magazine/2024/08/04/us-spies-soviet-technology-00164126,163
-Uncovered Euripides fragments are 'kind of a big deal',2024-08-05,https://www.colorado.edu/asmagazine/2024/08/01/uncovered-euripides-fragments-are-kind-big-deal,151
-Evaluating a class of infinite sums in closed form,2024-08-05,https://www.johndcook.com/blog/2024/08/03/polylog/,148
-USB Sniffer Lite for RP2040,2024-08-05,https://github.com/ataradov/usb-sniffer-lite,139
-A primer on the current state of longevity research,2024-08-05,https://www.owlposting.com/p/some-questions-and-answers-i-had,138
-"Zero regrets: Firefox power user kept 7,500 tabs open for two years",2024-08-05,https://www.techspot.com/news/102871-zero-regrets-firefox-power-user-kept-7500-tabs.html,138
-Discovering algorithms by enumerating terms in Haskell,2024-08-05,https://twitter.com/VictorTaelin/status/1819208143638831404,137
-Andy Warhol's lost Amiga art found,2024-08-05,https://dfarq.homeip.net/andy-warhols-lost-amiga-art-found/,135
-Buster: Captcha Solver for Humans,2024-08-05,https://github.com/dessant/buster,134
-The introverts are winning,2024-08-05,https://newhumanist.org.uk/articles/6306/the-introverts-are-winning,134
-Go Donut: Convert Live Streaming to WebRTC,2024-08-05,https://github.com/flavioribeiro/donut,124
-Rhombus: Macro-extensible language with conventional syntax built on Racket,2024-08-05,https://docs.racket-lang.org/rhombus/index.html,123
-Dispatches from the farm upstate,2024-08-05,https://lcamtuf.substack.com/p/dispatches-from-the-farm-upstate,114
-You can contribute to KDE with non-C++ code,2024-08-05,https://rabbitictranslator.com/contribute-to-kde-without-cpp/,104
-"Apprentice, Journeyman, and Master: The Medieval Guild (2018)",2024-08-05,https://blog.philosophicalsociety.org/2018/01/10/apprentice-journeyman-and-master-the-medieval-guild/,103
-"Enum class improvements for C++17, C++20 and C++23",2024-08-05,https://www.cppstories.com/2024/enum-improvements/,101
-Qub – a framework for building websites with QBasic,2024-08-05,https://github.com/jamonholmgren/qub,100
-Parsing Protobuf Definitions with Tree-sitter,2024-08-05,https://relistan.com/parsing-protobuf-files-with-treesitter,98
-"Additive manufacturing of an ultrastrong, deformable aluminum alloy",2024-08-05,https://www.nature.com/articles/s41467-024-48693-4,90
-Revisiting Linux CPU Scheduling,2024-08-05,https://www.uninformativ.de/blog/postings/2024-08-03/0/POSTING-en.html,89
-How to Get or Create in PostgreSQL,2024-08-05,https://hakibenita.com/postgresql-get-or-create,86
-Single-packet race condition breaking the 65535 byte lim,2024-08-05,https://flatt.tech/research/posts/beyond-the-limit-expanding-single-packet-race-condition-with-first-sequence-sync/,79
-A 20-something dethroned dotcom CEO that went to work the counter at McDonald's (2000),2024-08-05,https://web.archive.org/web/20040616091238/http://www.heiferman.com/mcd/,75
-HamClock – a real time space weather dashboard,2024-08-05,https://www.clearskyinstitute.com/ham/HamClock/,71
-I Wasn't the First Person to Find the NJ Coca-Cola Cocaine Factory,2024-08-05,https://rmcortes.medium.com/i-wasnt-the-first-to-find-the-nj-cocaine-factory-5f37aed74776,67
-Nvidia's Blackwell Reworked – Shipment Delays and GB200A Reworked Platforms,2024-08-05,https://www.semianalysis.com/p/nvidias-blackwell-reworked-shipment,62
-A cryptographically secure bootloader for RISC-V in Rust,2024-08-05,https://www.codethink.co.uk/articles/2024/secure_bootloader/,61
-Computer Security Is a Political Struggle,2024-08-05,https://cybershow.uk/blog/posts/computer-security-is-a-political-struggle/,60
-Romram: Using QSPI RAM with RP2040's SSI in read-write mode,2024-08-05,http://dmitry.gr/?r=06.%20Thoughts&proj=10.%20RomRam,60
-Largest Geothermal Development in America Taking Shape in Utah,2024-08-05,https://mymodernmet.com/california-geothermal-project/,56
-You Can't Spell WebRTC Without RCE – Part 1,2024-08-05,https://margin.re/2024/07/you-cant-spell-webrtc-without-rce-part-1/,54
-"50 years ago, CP/M started the microcomputer revolution",2024-08-05,https://www.theregister.com/2024/08/02/cpm_50th_anniversary/,51
-Thunderstorms Have Caused $45B in Damages in the U.S. in Six Months,2024-08-05,https://www.scientificamerican.com/article/thunderstorms-have-caused-usd45-billion-in-damages-in-the-u-s-in-just-six/,48
-Improving _Generic in C2y,2024-08-05,https://thephd.dev/improving-_generic-in-c2y,48
-Show HN: KittyCal – minimalist PWA calendar app for couples,2024-08-05,https://kittycal.net,48
-The Spartan Protocol Homepage,2024-08-05,http://portal.mozz.us/gemini/spartan.mozz.us/,46
-"Indonesia bans search engine DuckDuckGo on gambling, pornography concerns",2024-08-05,https://www.reuters.com/world/asia-pacific/indonesia-bans-search-engine-duckduckgo-gambling-pornography-concerns-2024-08-02/,44
-Online trading platforms down for users,2024-08-05,https://www.reuters.com/business/finance/online-trading-platforms-down-thousands-users-downdetector-shows-2024-08-05/,42
-"Google pulls its terrible pro-AI ""Dear Sydney"" ad after backlash",2024-08-05,https://arstechnica.com/culture/2024/08/google-pulls-its-terrible-pro-ai-dear-sydney-ad-after-backlash/,40
-"The meanest app: Duolingo subjects its users to ""emotional blackmail""",2024-08-05,https://www.businessinsider.com/duolingo-meanest-app-nagging-notifications-melting-icon-gen-z-marketing-2024-7,39
-Building a 10BASE5 Thick Ethernet Network (2012),2024-08-05,https://www.mattmillman.com/projects/10base5/,38
-$1T wipeout: Market rout punishes mega-cap tech,2024-08-05,https://www.cnbc.com/2024/08/05/1-trillion-wipeout-market-rout-punishes-mega-cap-tech.html,32
-I Miss Lorina Bulwer: A hand-stitched letter of note,2024-08-05,https://news.lettersofnote.com/p/i-miss-lorina-bulwer,31
-Myspace celebrates its 21st birthday. Do we still need it?,2024-08-05,https://triblive.com/business/technology/myspace-celebrates-its-21st-birthday-do-we-still-need-it/,31
-How the Music Industry Learned to Love Piracy,2024-08-05,https://www.nytimes.com/2024/07/31/magazine/how-music-got-free-documentary.html,29
-How Diaries Evolved from Lists to Personal Histories,2024-08-05,https://slate.com/culture/2024/07/book-author-roland-allen-explains-the-history-of-the-diary-in-the-notebook-a-history-of-thinking-on-paper.html,29
-Groq Raises $640M to Meet Soaring Demand for Fast AI Inference,2024-08-05,https://wow.groq.com/news_press/groq-raises-640m-to-meet-soaring-demand-for-fast-ai-inference/,29
-A New Type of Neural Network Is More Interpretable,2024-08-05,https://spectrum.ieee.org/kan-neural-network,27
-Minimum Viable CD,2024-08-05,https://minimumcd.org/minimumcd/,26
-"A Knownbits Abstract Domain for the Toy Optimizer, Correctly",2024-08-05,https://pypy.org/posts/2024/08/toy-knownbits.html,26
-Show HN: Pie Menu – a radial menu for macOS,2024-08-05,https://www.pie-menu.com/,25
-AI chip startup Groq lands $640M to challenge Nvidia,2024-08-05,https://techcrunch.com/2024/08/05/ai-chip-startup-groq-lands-640m-to-challenge-nvidia/,25
-Smoke Forecast – Real time map of fires and their smoke with forecast,2024-08-05,https://firesmoke.ca/forecasts/current/,23
-The Internet Is Broken: Idealistic Ideas for Building a GNU Network [pdf] (2014),2024-08-05,https://www.w3.org/2014/strint/papers/65.pdf,22
-Show HN: Visual a* Pathfinding and Maze Generation in Python,2024-08-05,https://github.com/Dicklesworthstone/visual_astar_python,21
-New study uses self-interacting dark matter to solve the final parsec problem,2024-08-05,https://phys.org/news/2024-07-interacting-dark-parsec-problem.html,21
-Leaked Docs Show Nvidia Scraping a Human Lifetime of Videos per Day to Train AI,2024-08-05,https://www.404media.co/nvidia-ai-scraping-foundational-model-cosmos-project/,15
-"Bangladesh PM Hasina has resigned and left the country, media reports say",2024-08-05,https://www.reuters.com/world/asia-pacific/bangladesh-protesters-call-march-dhaka-defiance-curfew-2024-08-05/,14
-US chip factory workers say a struggle to survive on wages as industry booms,2024-08-05,https://www.theguardian.com/business/article/2024/aug/05/chip-factory-workers-wages,13
-China's dramatic drop in air pollution may have prevented suicides in the 2010s,2024-08-05,https://dialogue.earth/en/pollution/cleaner-air-shown-to-have-reduced-suicides-in-china/,12
-"Knuckledragger, a Semi-Automated Python Proof Assistant",2024-08-05,https://www.philipzucker.com/state_o_knuck/,11
-Jeff Bezos' family office is making big investments in AI,2024-08-05,https://www.cnbc.com/2024/08/02/jeff-bezos-investing-big-in-ai-through-his-family-office.html,11
-JEP 483: Ahead-of-Time Class Loading and Linking,2024-08-05,https://openjdk.org/jeps/483,9
-Voter Documents Leaked Online,2024-08-05,https://www.techradar.com/pro/millions-of-voter-documents-leaked-online-fears-of-election-interference-rise-following-breach,7
-Implosion of the Yen Carry Trade,2024-08-05,https://www.cnbc.com/2024/08/02/carry-trade-how-japans-yen-could-be-ripping-through-us-stocks.html,6
-Reduct: Transcript-Based Video Editing,2024-08-05,https://reduct.video/,6
-CVE-2024-40798 – an app may be able to read Safari's browsing history,2024-08-05,https://nvd.nist.gov/vuln/detail/CVE-2024-40798,5
-Infisical (YC W23) Is Hiring a Customer Success Engineer,2024-08-05,https://www.ycombinator.com/companies/infisical/jobs/28DIh6L-customer-success-engineer,0
+title,link,points,time
+"""We ran out of columns""",https://jimmyhmiller.github.io/ugliest-beautiful-codebase,1528,2024-08-03 00:00:00
+Starting Hospice,https://jakeseliger.com/2024/08/04/starting-hospice-the-end/,727,2024-08-04 07:00:00
+Open Source Farming Robot,https://farm.bot/,667,2024-08-04 00:00:00
+Porting my JavaScript game engine to C for no reason,https://phoboslab.org/log/2024/08/high_impact,494,2024-08-04 00:00:00
+Show HN: Free e-book about WebGPU Programming,https://shi-yan.github.io/webgpuunleashed/,405,2024-08-04 02:00:00
+"How I Use ""AI""",https://nicholas.carlini.com/writing/2024/how-i-use-ai.html,391,2024-08-04 00:00:00
+Jailbroke my Kindle to use it as an e-ink monitor,https://gist.github.com/adtac/eb639d3c707b55a28f0ee9a420aa7e0c,389,2024-08-04 00:00:00
+How Postgres stores data on disk – this one's a page turner,https://drew.silcock.dev/blog/how-postgres-stores-data-on-disk/,370,2024-08-04 12:00:00
+Google Loses DOJ Antitrust Suit Over Search,https://www.bloomberg.com/news/articles/2024-08-05/google-loses-doj-antitrust-suit-over-search,367,2024-08-04 22:00:00
+WhenFS: Calender Is Now a File System,https://github.com/lvkv/whenfs,329,2024-08-04 00:00:00
+Andy Warhol's lost Amiga art found,https://dfarq.homeip.net/andy-warhols-lost-amiga-art-found/,271,2024-08-04 19:00:00
+"Age is a simple, modern and secure file encryption tool, format, and Go library",https://github.com/FiloSottile/age,248,2024-08-04 02:00:00
+Airlines are running out of 4-digit flight numbers,https://viewfromthewing.com/airlines-are-running-out-of-flight-numbers-and-they-dont-know-what-to-do-about-it/,244,2024-08-04 00:00:00
+Building Lego Machines to Destroy Tall Lego Towers,https://kottke.org/24/07/building-lego-machines-to-destroy-tall-lego-towers,242,2024-08-04 06:00:00
+Self-Compressing Neural Networks,https://arxiv.org/abs/2301.13142,223,2024-08-04 00:00:00
+Making your own hot sauce,https://successfulsoftware.net/2024/08/04/making-your-own-hot-sauce/,217,2024-08-04 00:00:00
+"Written by a 16 year old, a book on how computers work",https://github.com/hackclub/RAM-a-thon,197,2024-08-04 00:00:00
+Uncovered Euripides fragments are 'kind of a big deal',https://www.colorado.edu/asmagazine/2024/08/01/uncovered-euripides-fragments-are-kind-big-deal,182,2024-08-04 15:00:00
+Organic maps: Experimental feed based public transport mapping,https://github.com/organicmaps/organicmaps/blob/master/docs/EXPERIMENTAL_PUBLIC_TRANSPORT_SUPPORT.md,175,2024-08-04 00:00:00
+Tomato nostalgia as I relive my Croatian island childhood,https://www.croatiaweek.com/tomatoes-croatian-island-taste/,175,2024-08-04 00:00:00
+Belenios: Verifiable online voting system,https://www.belenios.org/,172,2024-08-04 00:00:00
+Cortex A73's Not-So-Infinite Reordering Capacity,https://chipsandcheese.com/2024/08/04/cortex-a73s-not-so-infinite-reordering-capacity/,171,2024-08-04 01:00:00
+Evaluating a class of infinite sums in closed form,https://www.johndcook.com/blog/2024/08/03/polylog/,153,2024-08-04 00:00:00
+A primer on the current state of longevity research,https://www.owlposting.com/p/some-questions-and-answers-i-had,148,2024-08-04 00:00:00
+Launch HN: Airhart Aeronautics (YC S22) – A modern personal airplane,item?id=41163382,144,2024-08-04 21:00:00
+USB Sniffer Lite for RP2040,https://github.com/ataradov/usb-sniffer-lite,141,2024-08-04 00:00:00
+The introverts are winning,https://newhumanist.org.uk/articles/6306/the-introverts-are-winning,138,2024-08-04 00:00:00
+Buster: Captcha Solver for Humans,https://github.com/dessant/buster,137,2024-08-04 00:00:00
+Fiber optic drone control beats any RF jammer,https://www.forbes.com/sites/davidhambling/2024/03/08/russian-fiber-optic-drone-can-beat-any-jammer/,130,2024-08-04 00:00:00
+A new type of neural network is more interpretable,https://spectrum.ieee.org/kan-neural-network,127,2024-08-04 20:00:00
+Rhombus: Macro-extensible language with conventional syntax built on Racket,https://docs.racket-lang.org/rhombus/index.html,126,2024-08-04 00:00:00
+Dispatches from the farm upstate,https://lcamtuf.substack.com/p/dispatches-from-the-farm-upstate,121,2024-08-04 00:00:00
+Show HN: Pie Menu – a radial menu for macOS,https://www.pie-menu.com/,119,2024-08-04 20:00:00
+"Apprentice, Journeyman, and Master: The Medieval Guild (2018)",https://blog.philosophicalsociety.org/2018/01/10/apprentice-journeyman-and-master-the-medieval-guild/,106,2024-08-04 00:00:00
+You can contribute to KDE with non-C++ code,https://rabbitictranslator.com/contribute-to-kde-without-cpp/,105,2024-08-04 00:00:00
+A cryptographically secure bootloader for RISC-V in Rust,https://www.codethink.co.uk/articles/2024/secure_bootloader/,105,2024-08-04 18:00:00
+Qub – a framework for building websites with QBasic,https://github.com/jamonholmgren/qub,102,2024-08-04 00:00:00
+A 20-something dethroned dotcom CEO that went to work the counter at McDonald's (2000),https://web.archive.org/web/20040616091238/http://www.heiferman.com/mcd/,102,2024-08-04 18:00:00
+Parsing Protobuf Definitions with Tree-sitter,https://relistan.com/parsing-protobuf-files-with-treesitter,98,2024-08-03 00:00:00
+Iso20022.js: Create payments in 3 lines of code,https://www.iso20022js.com/,96,2024-08-04 21:00:00
+"Additive manufacturing of an ultrastrong, deformable aluminum alloy",https://www.nature.com/articles/s41467-024-48693-4,92,2024-08-03 00:00:00
+Revisiting Linux CPU Scheduling,https://www.uninformativ.de/blog/postings/2024-08-03/0/POSTING-en.html,91,2024-08-03 00:00:00
+How to Get or Create in PostgreSQL,https://hakibenita.com/postgresql-get-or-create,91,2024-08-04 14:00:00
+Single-packet race condition breaking the 65535 byte lim,https://flatt.tech/research/posts/beyond-the-limit-expanding-single-packet-race-condition-with-first-sequence-sync/,85,2024-08-04 13:00:00
+Largest Geothermal Development in America Taking Shape in Utah,https://mymodernmet.com/california-geothermal-project/,81,2024-08-04 18:00:00
+HamClock – a real time space weather dashboard,https://www.clearskyinstitute.com/ham/HamClock/,71,2024-08-04 00:00:00
+Computer Security Is a Political Struggle,https://cybershow.uk/blog/posts/computer-security-is-a-political-struggle/,69,2024-08-04 15:00:00
+WebGL visual programming editor cables.gl is now open source,https://cables.gl/standalone,65,2024-08-04 19:00:00
+Nvidia's Blackwell Reworked – Shipment Delays and GB200A Reworked Platforms,https://www.semianalysis.com/p/nvidias-blackwell-reworked-shipment,64,2024-08-04 01:00:00
+How the Music Industry Learned to Love Piracy,https://www.nytimes.com/2024/07/31/magazine/how-music-got-free-documentary.html,64,2024-08-04 18:00:00
+Romram: Using QSPI RAM with RP2040's SSI in read-write mode,http://dmitry.gr/?r=06.%20Thoughts&proj=10.%20RomRam,61,2024-08-04 00:00:00
+Show HN: Visual a* Pathfinding and Maze Generation in Python,https://github.com/Dicklesworthstone/visual_astar_python,58,2024-08-04 19:00:00
+"50 years ago, CP/M started the microcomputer revolution",https://www.theregister.com/2024/08/02/cpm_50th_anniversary/,55,2024-08-04 06:00:00
+You Can't Spell WebRTC Without RCE – Part 1,https://margin.re/2024/07/you-cant-spell-webrtc-without-rce-part-1/,54,2024-08-04 00:00:00
+Show HN: KittyCal – minimalist PWA calendar app for couples,https://kittycal.net,50,2024-08-04 00:00:00
+Karpathy/Nano-Llama31,https://github.com/karpathy/nano-llama31,50,2024-08-04 21:00:00
+The Spartan Protocol Homepage,http://portal.mozz.us/gemini/spartan.mozz.us/,49,2024-08-04 00:00:00
+Improving _Generic in C2y,https://thephd.dev/improving-_generic-in-c2y,49,2024-08-04 00:00:00
+"Indonesia bans search engine DuckDuckGo on gambling, pornography concerns",https://www.reuters.com/world/asia-pacific/indonesia-bans-search-engine-duckduckgo-gambling-pornography-concerns-2024-08-02/,47,2024-08-04 05:00:00
+A RoCE network for distributed AI training at scale,https://engineering.fb.com/2024/08/05/data-center-engineering/roce-network-distributed-ai-training-at-scale/,36,2024-08-04 20:00:00
+"Knuckledragger, a Semi-Automated Python Proof Assistant",https://www.philipzucker.com/state_o_knuck/,35,2024-08-04 19:00:00
+"Associative tools, thinking, and creativity: On augmenting creativity",https://thelastwave.substack.com/p/associative-tools-thinking-and-creativity,35,2024-08-04 20:00:00
+Myspace celebrates its 21st birthday. Do we still need it?,https://triblive.com/business/technology/myspace-celebrates-its-21st-birthday-do-we-still-need-it/,33,2024-08-04 02:00:00
+C++'s `Noexcept` Can (Sometimes) Help (Or Hurt) Performance,https://16bpp.net/blog/post/noexcept-can-sometimes-help-or-hurt-performance/,33,2024-08-04 20:00:00
+Undark and the Radium Girls (2006),https://www.damninteresting.com/undark-and-the-radium-girls/,32,2024-08-04 21:00:00
+New study uses self-interacting dark matter to solve the final parsec problem,https://phys.org/news/2024-07-interacting-dark-parsec-problem.html,28,2024-08-04 16:00:00
+Smoke Forecast – Real time map of fires and their smoke with forecast,https://firesmoke.ca/forecasts/current/,27,2024-08-04 00:00:00
+Minimum Viable CD,https://minimumcd.org/minimumcd/,27,2024-08-04 00:00:00
+Downing Street condemns Elon Musk for claim 'civil war is inevitable' in UK,https://www.independent.co.uk/news/uk/home-news/elon-musk-civil-war-uk-riots-b2591213.html,27,2024-08-04 22:00:00
+"A Knownbits Abstract Domain for the Toy Optimizer, Correctly",https://pypy.org/posts/2024/08/toy-knownbits.html,26,2024-08-04 00:00:00
+The tragedy of low-level exploitation,https://gynvael.coldwind.pl/?id=791,24,2024-08-04 17:00:00
+The Internet Is Broken: Idealistic Ideas for Building a GNU Network [pdf] (2014),https://www.w3.org/2014/strint/papers/65.pdf,23,2024-08-04 00:00:00
+It's Lights Out at a Cosmic Restaurant,https://www.nytimes.com/2024/08/04/science/space/astronomy-palomar-restaurant.html,23,2024-08-04 22:00:00
+"KCL, a constraint-based functional language for configuration",https://www.kcl-lang.io/,21,2024-08-04 19:00:00
+CVE-2024-40798 – an app may be able to read Safari's browsing history,https://nvd.nist.gov/vuln/detail/CVE-2024-40798,20,2024-08-04 20:00:00
+DIY Raspberry Pi 1000 turns a Raspberry Pi 5 into a PC-in-a-keyboard,https://liliputing.com/diy-raspberry-pi-1000-turns-a-raspberry-pi-5-into-a-pc-in-a-keyboard/,18,2024-08-04 02:00:00
+Voter Documents Leaked Online,https://www.techradar.com/pro/millions-of-voter-documents-leaked-online-fears-of-election-interference-rise-following-breach,15,2024-08-04 17:00:00
+DCPerf: An open source benchmark suite for hyperscale compute applications,https://engineering.fb.com/2024/08/05/data-center-engineering/dcperf-open-source-benchmark-suite-for-hyperscale-compute-applications/,15,2024-08-04 20:00:00
+Learn How to Learn,https://learnhowtolearn.org/,15,2024-08-04 20:00:00
+14TB drive with assorted large language model weights,https://computer.supply/products/16tb-drive-w-assorted-large-language-model-weights,15,2024-08-04 21:00:00
+Show HN: Telemetry.sh – Simplifying Telemetry Measurement,https://telemetry.sh/,12,2024-08-04 16:00:00
+TruffleHog now finds all Deleted and Private Commits on GitHub,https://trufflesecurity.com/blog/trufflehog-now-finds-all-deleted-and-private-commits-on-github,11,2024-08-04 20:00:00
+Six Degrees of Kevin Bacon – Postgres Style,https://www.crunchydata.com/blog/six-degrees-of-kevin-bacon-postgres-style,8,2024-08-04 21:00:00
+Half Life 3 hopes revived with Project White Sands leak,https://win.gg/news/half-life-3-hopes-revived-with-project-white-sands-leak/,6,2024-08-04 22:00:00
+Scheduling Model in LLVM,https://myhsu.xyz/llvm-sched-model-1/,5,2024-08-04 18:00:00
+Leveraged buyouts are not like mortgages,https://pluralistic.net/2024/08/05/rugged-individuals/#misleading-by-analogy,5,2024-08-04 21:00:00
+"Below the Root: A story, a computer game and my lifelong obsession (2015)",https://blog.stahlmandesign.com/below-the-root-a-story-a-computer-game-and-my-lifelong-obsession/,5,2024-08-04 23:13:00
+Gamification gets drivers to put down their phones,https://arstechnica.com/cars/2024/08/gamification-gets-drivers-to-put-their-phones-down-study-finds/,4,2024-08-04 20:00:00
+The Anatomy of Brainwashing,https://www.science.org/doi/10.1126/science.adp1705,3,2024-08-04 23:44:00
+Infisical (YC W23) Is Hiring a Customer Success Engineer,https://www.ycombinator.com/companies/infisical/jobs/28DIh6L-customer-success-engineer,0,2024-08-04 21:00:00
