@@ -14,9 +14,10 @@ Note: The saved HTML files will be stored in a 'data' directory relative to the 
 """
 
 import requests
+import concurrent.futures
+
 from datetime import datetime
 from pathlib import Path
-import concurrent.futures
 
 def fetch_page(url):
     """Fetches the HTML content of a given URL using the requests library."""
