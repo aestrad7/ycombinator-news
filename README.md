@@ -123,5 +123,5 @@ This project provides a comprehensive solution for extracting, analyzing, and ge
 
 ## Contact
 
-For more information, questions, or contributions, please contact [your email].
+For more information, questions, or contributions, please contact andresf.estrada.10@gmail.com
 
