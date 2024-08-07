@@ -10,5 +10,5 @@ if (-Not (Test-Path -Path $dataDir)) {
 # Ejecuta los scripts usando poetry
 poetry run python .\src\hacker_news_scrapper.py
 poetry run python .\src\hacker_news_table_extracter.py
-
+poetry run python .\notebooks\ollama-test-01.py
 # Se ejecuta con: .\run_scripts.ps1 (parado desde scripts)

@@ -4,8 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from langchain_core.output_parsers import StrOutputParser
 
+#TODO: Cambiar la ruta de los archivos a relativas
+
 # Load the data
-df = pd.read_csv("../data/hacker_news_news_20240806.csv")
+df = pd.read_csv("C:/Users/user/Documents/Code_New/Web-Scrapper/Scrapping-ycombinator/data/hacker_news_news_20240806.csv")
 
 # Convert the time column to datetime format
 df['time'] = pd.to_datetime(df['time'])
@@ -82,7 +84,7 @@ df_responses = pd.DataFrame(data)
 print(df_responses)
 
 # Save the DataFrame to a CSV file
-df_responses.to_csv("../data/tweets.csv", index=False)
+df_responses.to_csv("C:/Users/user/Documents/Code_New/Web-Scrapper/Scrapping-ycombinator/data/tweets.csv", index=False)
 
 
 # # Optional: Visualize points vs time
