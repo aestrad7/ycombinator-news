@@ -35,7 +35,7 @@ def time_to_hour(row, date_today):
     else:
         return pd.Timestamp(date_today)
     
-def df_transform(data, date_today): #:TODO validar que esto si funciona bien 
+def df_transform(data, date_today): 
     """Order and transform time column"""
     df = pd.DataFrame(data)
     df[["num", "long", "ot"]] = df["time"].str.split(" ", expand=True)
