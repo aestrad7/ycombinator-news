@@ -4,6 +4,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
 from langchain_core.output_parsers import StrOutputParser
+import time
+
+t= time.localtime()
 
 #TODO: Cambiar la ruta de los archivos a relativas
 
@@ -28,7 +31,7 @@ print("Data grouped by time", "\n", df_g.head(), "\n")
 
 # Create a list of strings with the top 5 news items based on points
 top_5 = []
-for index, row in df.nlargest(len(df_g), 'points').iterrows():
+for index, row in df.nlargest(12, 'points').iterrows(): # 18 minutos por 12 news
     top_5.append(f"{row['title']} url: {row['link']}")
 
 # print("Top 5 news", top_5, "\n")
@@ -71,6 +74,7 @@ for news_item in top_5:
         response = llm.invoke(prompt.format(**context))
         responses.append(response)
         print("Generated tweets:", response, "\n")
+        print("\n","time spent: ", (time.mktime(time.localtime()) - time.mktime(t)) / 60)
         
         # Append data to the list
         data.append({
@@ -89,7 +93,7 @@ print(df_responses)
 
 # Save the DataFrame to a CSV file
 df_responses.to_csv("C:/Users/user/Documents/Code_New/Web-Scrapper/Scrapping-ycombinator/data/tweets.csv", index=False)
-
+print("\n","time spent: ", (time.mktime(time.localtime()) - time.mktime(t)) / 60)
 
 # # Optional: Visualize points vs time
 # plt.figure(figsize=(10, 5))
