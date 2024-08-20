@@ -12,6 +12,15 @@
 - Creamos una cadena para el contexto
 - Anotamos algunas ideas
 
+### Dia 4
+- Depuramos consultas
+- Cambiamos el prompt para generar debate y analoisis sobre el tema y no un twit aun
+- Depuramos la fecha automatizada 
+
+### Dia 5
+- Editamos el script de runing para contar tiempo, 1.5 minutos por analoisis
+- nos quedamos con las 12 noticias mas populares
+
 ### Ideas
 | Facilidad | Deseabilidad | Descripción                                                                 |
 |-----------|--------------|-----------------------------------------------------------------------------|
@@ -25,6 +34,8 @@
 | 3         | 3            | Validar tablas de los últimos días                                          |
 | 1         | 3            | Procesar noticias de [otros medios](https://chatgpt.com/share/eeb0bb2a-bb70-49a6-ad01-ce6b67ff9eb7) como Medium |
 | 3         | 2            | Metricas de desempeño y monitoreo                                          |
+|       |           | Agregar una segunda capa de twiteo                                         |
+|       |           | Agregar depurador de relevancia                          |
 
 ---
 

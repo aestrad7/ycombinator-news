@@ -16,7 +16,7 @@ with temp_file.open('r') as f:
     date_today = f.read().strip()
 
 # Load the data
-df = pd.read_csv(f"C:/Users/user/Documents/Code_New/Web-Scrapper/Scrapping-ycombinator/data/hacker_news_news_{date_today}.csv")
+df = pd.read_csv(f"C:/Users/user/Documents/Code_New/Web-Scrapper/Scrapping-ycombinator/data/hacker_news_news_{date_today}.csv") #we are on /Scrapping-ycombinator/src/ dir right now 
 
 # Convert the time column to datetime format
 df['time'] = pd.to_datetime(df['time'])
